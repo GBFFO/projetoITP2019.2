@@ -1,0 +1,519 @@
+200 100
+colorir amarelo
+clear
+line
+salvar imagemGerada
+colorir verde
+espessura 3
+linemod 2 3 50 90
+colorir azulescuro
+preencher 70 10
+salvar imagemGerada2
+colorir laranja
+espessura 5
+plotar 1 0.25 30
+salvar imagemGerada3
+redimensionar 250 200
+salvar imagemGerada4
+inverter HorizonTalMenTE
+salvar imagemGerada5
+rotacionar 180
+salvar imagemGerada6
+end
+
+
+notas
+200 100
+colorir amarelo
+clear
+line
+salvar imagemGerada
+colorir verde
+espessura 3
+linemod 2 3 50 90
+colorir azulescuro
+preencher 70 10
+salvar imagemGerada2
+colorir laranja
+espessura 5
+plotar 1 0.25 30
+salvar imagemGerada3
+redimensionar 250 200
+salvar imagemGerada4
+inverter HorizonTalMenTE
+salvar imagemGerada5
+rotacionar 180
+salvar imagemGerada6
+end
+
+notas
+100 100
+colorir rosa
+clear
+salvar testando1
+line
+salvar testando2
+colorir verde
+preencher 60 30
+salvar testando3
+colorir laranja
+espessura 3
+plotar 1 0.5 30
+salvar testando4
+colorir roxo
+espessura 5
+plotar 1 -0.7 80
+salvar testando5
+colorir verdeclaro
+preencher 90 90
+salvar testando6
+preencher 1 80
+salvar testando7
+colorir rosa
+preencher 3 80
+salvar testando8
+rotacionar 90
+salvar testando9
+inverter horizontalmente
+salvar testando10
+colorir verde
+espessura 1
+preencher 80 80
+salvar testando11
+colorir verde
+preencher 2 1
+salvar testando12
+colorir azul
+preencher 2 1
+salvar testando13
+end
+
+terminal
+100 100
+colorir branco
+clear
+colorir preto
+plotar 1 1 0
+salvar plot_y=x
+colorir vermelho
+plotar 2 0.1 0 0
+salvar plot_y=0.1x^2
+colorir verde
+espessura 3
+plotar 2 -0.1 0 50
+salvar plot_y=-0.1x^2+50
+colorir magenta
+espessura 5
+plotar 3 0.05 -0.15 0 30
+salvar plot_y=0.05x^3-0.15x^2+30
+colorir laranja
+espessura 4
+plotar 1 -0.5 70
+salvar plot_y=0.05x^3-0.15x^2+30
+colorir amarelo
+espessura 3
+plotar 3 -0.1 2 -1 0
+inverter verticalmente
+end
+
+
+notas
+15 15
+colorir branco
+clear
+colorir vermelho
+pintarPixelmod 1 1
+colorir amarelo
+pintarPixelmod 15 1
+colorir azul
+pintarPixelmod 1 15
+colorir magenta
+pintarPixelmod 15 15
+colorir cinza
+pintarPixelmod 8 1
+colorir preto
+pintarPixelmod 1 8
+colorir laranja
+pintarPixelmod 15 8
+colorir marrom
+pintarPixelmod 8 15
+colorir verde
+pintarPixelmod 8 8
+end
+
+//TESTE TAMANHO PIXEL
+notas
+11 11
+colorir branco
+clear
+colorir vermelho
+pintarPixelmod 1 1
+colorir amarelo
+pintarPixelmod 11 1
+colorir azul
+pintarPixelmod 1 11
+colorir magenta
+pintarPixelmod 11 11
+colorir cinza
+pintarPixelmod 6 1
+colorir preto
+pintarPixelmod 1 6
+colorir laranja
+pintarPixelmod 11 6
+colorir marrom
+pintarPixelmod 6 11
+colorir verde
+pintarPixelmod 6 6
+end
+
+
+//TESTE FUNCOES
+notas
+100 100
+colorir branco
+clear
+colorir preto
+plotar 1 1 0
+salvar plot_y=x
+colorir vermelho
+plotar 2 0.1 0 0
+salvar plot_y=0.1x^2
+colorir verde
+plotar 2 -0.1 0 50
+salvar plot_y=-0.1x^2+50
+colorir magenta
+plotar 3 0.05 -0.15 0 30
+salvar plot_y=0.05x^3-0.15x^2+30
+colorir laranja
+plotar 1 -0.5 70
+salvar plot_y=0.05x^3-0.15x^2+30
+colorir amarelo
+plotar 3 -0.1 2 -1 0
+inverter verticalmente
+end
+
+//TESTANDO PIXEL COM DIFERENTES ESPESSURAS
+notas
+10 10
+colorir branco
+clear
+colorir vermelho
+pintarPixelmod 1 1
+colorir amarelo
+pintarPixelmod 10 1
+colorir azul
+pintarPixelmod 1 10
+colorir magenta
+pintarPixelmod 10 10
+colorir cinza
+pintarPixelmod 5 1
+colorir preto
+pintarPixelmod 1 5
+colorir laranja
+pintarPixelmod 10 5
+colorir marrom
+pintarPixelmod 5 10
+colorir verde
+pintarPixelmod 2 2
+pintarPixelmod 3 3 
+pintarPixelmod 4 4 
+pintarPixelmod 5 5 
+pintarPixelmod 6 6 
+pintarPixelmod 7 7
+pintarPixelmod 8 8
+pintarPixelmod 9 9
+end
+
+//TESTANDO PLOTAR FUNÇÕES
+notas
+50 100
+colorir branco
+clear
+colorir preto
+plotar 1 1 0
+salvar plot_y=x
+colorir vermelho
+plotar 2 0.1 0 0
+salvar plot_y=0.1x^2
+colorir verde
+plotar 2 -0.1 0 50
+salvar plot_y=-0.1x^2+50
+colorir magenta
+plotar 3 0.05 -0.15 0 30
+salvar plot_y=0.05x^3-0.15x^2+30
+inverter verticalmente
+end
+
+notas
+colorir vermelho
+linemod 50 60 700 400
+salvar e1
+inverter horizontalmente
+salvar e2
+end
+
+
+terminal
+200 100
+colorir amarelo
+clear
+line
+colorir magenta
+linemod 5 8 40 85
+colorir laranja
+poligono 4 10 30 80 30 80 70 20 70
+salvar i0
+redimensionar 5 5
+salvar i1
+end
+
+//EXEMPLOS PARA VERIFICAR INVERSÃO E ROTAÇÃO
+notas
+200 100
+colorir amarelo
+clear
+line
+colorir magenta
+linemod 5 8 40 85
+colorir laranja
+poligono 4 10 30 80 30 80 70 20 70
+salvar Figura01
+inverter Verticalmente
+salvar Figura02
+rotacionar esquerda
+salvar Figura03
+end
+
+//EXEMPLOS PARA VERIFICAR A INVERSÃO DA IMAGEM
+notas
+200 100
+colorir amarelo
+clear
+line
+colorir magenta
+linemod 5 8 40 85
+colorir laranja
+poligono 4 10 30 80 30 80 70 20 70
+salvar FIGANTES
+rotacionar 90
+salvar FIGDEPOIS
+end
+
+//EXEMPLO PARA VERIFICAR A ROTAÇÃO DA IMAGEM
+notas
+200 100
+colorir amarelo
+clear
+line
+colorir magenta
+linemod 5 8 40 85
+colorir laranja
+poligono 4 10 30 80 30 80 70 20 70
+salvar FIGANTES
+rotacionar direita
+salvar FIGDEPOIS
+end
+
+
+//EXEMPLO GIRANDO IMAGEM QUADRADA
+notas
+30 30
+colorir laranja
+clear
+line
+colorir verde
+linemod 5 8 40 15
+salvar imagem0graus
+rotacionar 90
+salvar imagem90graus
+end
+
+
+//EXEMPLO SALVANDO ALGUMAS IMAGENS
+notas
+200 250
+salvar f0
+colorir azulescuro
+clear
+salvar f1
+colorir branco
+poligono 7 10 10 30 10 50 15 80 20 60 90 60 60 20 40
+salvar f2
+colorir magenta
+linemod 20 60 180 10
+salvar f3
+end
+
+//TESTAR SALVAR DIVERSAS IMAGENS
+terminal
+200 100
+colorir azulescuro
+clear
+salvar f1.ppm
+colorir branco
+poligono 7 10 10 30 10 50 15 80 20 60 90 60 60 20 40
+salvar f2.ppm
+colorir magenta
+linemod 20 60 180 10
+salvar f3.ppm
+end
+
+//TESTANDO CORES NOMINALMENTE
+notas
+300 400
+colorir preto
+colorir branco
+colorir cinza
+colorir vermelho
+colorir verde
+colorir verdeclaro
+colorir verdeescuro
+colorir azul
+colorir azulclaro
+colorir azulescuro
+colorir amarelo
+colorir laranja
+colorir marrom
+colorir roxo
+colorir magenta
+colorir rosa
+colorir bege
+colorir amarelo
+colorir hahaha
+colorir 255 0 0
+colorir AMARELO
+colorir rocho
+clear
+end
+
+color 0 0 0
+linemod 51 51 101 51 
+color 255 0 0
+linemod 51 51 101 76 
+color 0 128 0
+linemod 51 51 101 101
+color 0 255 0
+linemod 51 51 76 101
+color 0 100 0
+linemod 51 51 51 101
+color 0 0 255
+linemod 51 51 26 101
+color 0 255 255
+linemod 51 51 1 101
+color 0 0 139
+linemod 51 51 1 76
+color 255 255 0
+linemod 51 51 1 51
+color 255 140 0
+linemod 51 51 1 26
+color 139 69 19
+linemod 51 51 1 1
+color 128 0 128
+linemod 51 51 26 1
+color 255 0 255
+linemod 51 51 51 1
+color 255 192 203
+linemod 51 51 76 1
+color 255 253 208
+linemod 51 51 101 1
+color 128 128 128
+linemod 51 51 101 26
+color 0 0 0
+poligono 4 31 41 71 41 71 61 31 61
+poligono 3 30 80 85 45 60 90
+poligono 2 30 20 85 90
+poligono 1 5 85
+color 255 0 0
+poligono 5 10 25 28 18 17 93 81 50 1 3
+color 255 0 255
+poligono 5 -10 -20 50 -5 150 40 30 150 -10 60
+end
+
+
+
+
+//CORES EM ORDEM
+notas
+100 100
+color 0 0 0
+linemod 50 50 100 50 
+color 255 0 0
+linemod 50 50 100 75 
+color 0 128 0
+linemod 50 50 100 100
+color 0 255 0
+linemod 50 50 75 100
+color 0 100 0
+linemod 50 50 50 100
+color 0 0 255
+linemod 50 50 25 100
+color 0 255 255
+linemod 50 50 1 100
+color 0 0 139
+linemod 50 50 1 75
+color 255 255 0
+linemod 50 50 1 50
+color 255 140 0
+linemod 50 50 1 25
+color 139 69 19
+linemod 50 50 1 1
+color 128 0 128
+linemod 50 50 25 1
+color 255 0 255
+linemod 50 50 50 1
+color 255 192 203
+linemod 50 50 75 1
+color 255 253 208
+linemod 50 50 100 1
+color 128 128 128
+linemod 50 50 100 25
+end
+
+//CORES
+100 100
+color 0 0 0 preto
+linemod 50 50 100 50 
+color 255 0 0 vermelho
+linemod 50 50 100 75 
+color 0 255 0 verdeclaro
+linemod 50 50 100 100
+color 0 0 255 azul
+linemod 50 50 75 100
+color 255 255 0 amarelo
+linemod 50 50 50 100
+color 255 0 255 magenta
+linemod 50 50 25 100
+color 0 255 255 azulclaro
+linemod 50 50 1 100
+color 128 128 128 cinza
+linemod 50 50 1 75
+color 0 128 0 verde
+linemod 50 50 1 50
+color 139 69 19 marrom
+linemod 50 50 1 25
+color 255 140 0 laranja
+linemod 50 50 1 1
+color 128 0 128 roxo
+linemod 50 50 25 1
+color 255 192 203 rosa
+linemod 50 50 50 1
+color 0 100 0 verdeescuro
+linemod 50 50 75 1
+color 0 0 139 azulescuro
+linemod 50 50 100 1
+color 255 253 208 bege
+linemod 50 50 100 25
+end
+
+//Testes Aleatorios
+8 100
+color 255 255 0
+clear
+line
+color 0 255 0
+pintarPixel 30 80
+pintarPixel 10 30
+color 0 0 255
+pintarPixel 30 40
+pintarPixel 10 5
+end

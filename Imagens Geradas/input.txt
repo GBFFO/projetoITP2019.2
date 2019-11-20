@@ -1,0 +1,10 @@
+imagem 300 400
+cor azulclaro
+limpar
+cor laranja
+espessura 3
+linha 2 2 150 350
+salvar input01
+inverter VerTiCalMENTe
+salvar input02
+end

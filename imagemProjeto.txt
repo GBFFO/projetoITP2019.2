@@ -1,0 +1,13 @@
+imagem 1000 500
+cor azul
+limpar
+cor preta
+circulo 350 150 50
+cor amarela
+preencher 350 150
+espessura 3
+cor preta
+linha 1 350 600 230
+linha 600 230 1000 300
+salvar imagemProjeto
+fim

@@ -90,7 +90,7 @@ int main(int argc, char *argv[]){
                 scanf("%d", &raio);
             } else{
                 fscanf(lerEntradas, "%d %d %d", &xc, &yc, &raio);
-                printf("%d %d %d", x, y, raio);
+                printf("%d %d %d", xc, yc, raio);
             }
             circulo(img, xc, yc, raio, cor, espessuraLinha); //Desenhar circulo
 

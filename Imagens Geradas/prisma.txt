@@ -1,0 +1,51 @@
+imagem 400 300
+cor preta
+espessura 1
+circulo 50 60 30
+paralelepipedo 200 200 50 100 150 45
+circulo 300 250 60
+cor roxo
+circulo 300 250 20
+cor laranja
+circulo 300 250 10
+cor rosa
+espessura 3
+paralelepipedo 300 20 20 60 15 135
+cor azul
+espessura 1
+paralelepipedo 50 150 20 30 10 60
+cor verdeclaro 
+preencher 2 2
+cor vermelho
+preencher 200 150
+cor cinza
+preencher 133 150
+cor amarelo
+preencher 231 240
+cor azul
+preencher 300 275
+cor rosa
+preencher 300 251
+cor laranja
+preencher 50 50
+cor azulclaro
+poligono 5 300 20 310 25 330 70 380 90 260 115
+cor preta
+preencher 300 50
+espessura 5
+cor branca
+plotar 2 0.005 -0.5 120
+cor azulclaro
+preencher 1 120
+espessura 1
+cor rosa
+plotar 1 1 0
+cor laranja
+plotar 2 0.01 0 0
+cor magenta
+plotar 3 0.0001 0 0 0
+cor verde
+plotar 4 0.0001 -0.005 -0.005 -0.1 -50
+plotar 0 100
+salvar prisma_teste
+fim

@@ -4,7 +4,20 @@
 #include "math.h"
 #include "funcoes.h"
 
-//Funcão plotar o gráfico de um polinômio de grau 'n' com o seguinte formato: y = an*x^n + a(n-1)*x^(n-1) + ... + a2*x^2 + a1*x^1 + a0*x^0 
+/**
+ * Funcão plotar o gráfico de um polinômio de grau 'n' 
+ * com o seguinte formato: y = an*x^n + a(n-1)*x^(n-1) + ... + a2*x^2 + a1*x^1 + a0*x^0
+ * Obs: A função plota uma curva considerando o centro da imagem como sendo as coordenadasd (0,0)
+ * @param img - Referencia para a imagem na qual será desenhada o "gráfico" da função
+ * @param cor - Cor RGB que será pintada a linha
+ * @param espessura - Espessura/densidade da linha que será desenhada na imagem
+ * @param terminal - Identifica se as entradas dos dados são feitas pelo terminal ou pelo arquivo de texto
+ * @param lerEntradas - Referencia para o arquivo de texto
+ * @return int 
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int plotar(Imagem img, Pixel cor, int espessura, int terminal, FILE *lerEntradas){
     int grauPolinomio, x1, x2, y1, y2;
     float y1Float, y2Float, coeficientes[MAXcoeficientes];

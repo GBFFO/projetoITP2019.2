@@ -1,8 +1,22 @@
 #include "funcoes.h"
 #include "stdio.h"
-#include "math.h"
+#include <math.h>
 
-//Essa função desenha um paralelepípedo dadas as dimensões deste prisma, o ângulo de rotação e as coordenadas de 1 dos vértices.
+
+/**
+ * Essa função desenha um paralelepípedo dadas as dimensões deste prisma, 
+ * o ângulo de rotação e as coordenadas de 1 dos vértices.
+ * 
+ * @param img - Referencia para a imagem na qual será traçado o paralelepípedo
+ * @param cor - Cor RGB que será pintado as linhas do paralelepipedo
+ * @param prisma - Referencia para as dimensões/características do paralelepipedo
+ * que será desenhado(altura, largura, comprimento e angulo de rotação)
+ * @param espessuraLinha 
+ * @return int 
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int paralelepipedo(Imagem img, Pixel cor, Dimensoes prisma, int espessuraLinha){
     Ponto p[10];
     int x, y, altura, largura, comprimento, angulo;

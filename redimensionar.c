@@ -3,8 +3,19 @@
 #include "string.h"
 #include "stdlib.h"
 
-  
-//Essa função redimensiona as dimensões da imagem (colunas x linhas).
+/**
+ * Essa função redimensiona as dimensões da imagem (colunas x linhas),
+ * deixando o novo espaço criado preenchido com a cor branca.
+ * 
+ * @param img - Referencia para a imagem de tamanho 100x50(inicialmente), ou de largura e altura
+ * dadas pelo usuário, que será redimensionada
+ * @param terminal - Identifica se as entradas dos dados são feitas pelo terminal ou pelo arquivo de texto
+ * @param lerEntradas - Referencia para o arquivo de texto 
+ * @return int 
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int redimensionar(Imagem *img,  int terminal, FILE *lerEntradas){
     int colunasFinal, linhasFinal, colunasInicial, linhasInicial;
     Pixel matrizTemporaria[img->lin][img->col]; //Declarando matriz temporaria para armazenar pixels originais da imagem

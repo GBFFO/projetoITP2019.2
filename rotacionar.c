@@ -3,47 +3,54 @@
 #include "string.h"
 #include "stdlib.h"
 
-/*  ################ ROTACIONAR MATRIZ ################ 
-    Explicações: 
-        - O código abaixo rotaciona a matriz para a direita (90 graus no sentido horário). 
-        - Girar a matriz em 180 graus equivale a girar 2 vezes a matriz para a direita.
-        - Girar a matriz para a esquerda equivale a girar 3 vezes a matriz para a direita.
-        - Para girar a matriz para a direita basicamente 2 passos são realizados:
-            (a) Inverte-se a matriz de cabeça para baixo (Espelhar a matriz verticalmente)
-            (b) Realiza-se procedimento para obter a transposta da matriz previamente invertida
-                Obs: O exemplo abaixo ilustra estes dois procedimentos considerando uma matriz genérica A.
-
-    Exemplo:
-        # Dada uma matriz A
-
-                       | a  b  c  d |
-            Matriz A = | e  f  g  h |
-                       | i  j  k  l |
-
-        # Procedimento (a): Inverter matriz verticalmente
-
-                       | i  j  k  l |
-            Matriz A = | e  f  g  h |
-                       | a  b  c  d |
-
-        # Procedimento (b): Transposta de A
-
-                       | i  e  a |
-            Matriz A = | j  f  b |
-                       | k  g  c |
-                       | l  h  d |
-
-        # Portanto, rotacionou para a direita.
-
-                Início                      Final
-
-            | a  b  c  d |              | i  e  a |
-            | e  f  g  h |      ===>    | j  f  b |
-            | i  j  k  l |              | k  g  c |
-                                        | l  h  d |
-*/        
-
-//Essa função rotaciona a imagem em 90, 180 ou 270 graus no sentido horário.
+/**  ################ ROTACIONAR MATRIZ ################ 
+ *    Explicações: 
+ *        - O código abaixo rotaciona a matriz para a direita (90 graus no sentido horário). 
+ *        - Girar a matriz em 180 graus equivale a girar 2 vezes a matriz para a direita.
+ *        - Girar a matriz para a esquerda equivale a girar 3 vezes a matriz para a direita.
+ *        - Para girar a matriz para a direita basicamente 2 passos são realizados:
+ *            (a) Inverte-se a matriz de cabeça para baixo (Espelhar a matriz verticalmente)
+ *            (b) Realiza-se procedimento para obter a transposta da matriz previamente invertida
+ *                Obs: O exemplo abaixo ilustra estes dois procedimentos considerando uma matriz genérica A.
+ *
+ *    Exemplo:
+ *        # Dada uma matriz A
+ *
+ *                       | a  b  c  d |
+ *            Matriz A = | e  f  g  h |
+ *                       | i  j  k  l |
+ *
+ *        # Procedimento (a): Inverter matriz verticalmente
+ *
+ *                       | i  j  k  l |
+ *            Matriz A = | e  f  g  h |
+ *                       | a  b  c  d |
+ *
+ *        # Procedimento (b): Transposta de A
+ *
+ *                       | i  e  a |
+ *            Matriz A = | j  f  b |
+ *                       | k  g  c |
+ *                       | l  h  d |
+ *
+ *        # Portanto, rotacionou para a direita.
+ *
+ *                Início                      Final
+ *
+ *            | a  b  c  d |              | i  e  a |
+ *            | e  f  g  h |      ===>    | j  f  b |
+ *            | i  j  k  l |              | k  g  c |
+ *                                        | l  h  d |
+ * Essa função rotaciona a imagem em 90, 180 ou 270 graus no sentido horário.
+ * 
+ * @param img - Referencia para a imagem que será rotacionada
+ * @param terminal - Identifica se as entradas dos dados são feitas pelo terminal ou pelo arquivo de texto
+ * @param lerEntradas - Referencia para o arquivo de texto 
+ * @return int
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int rotacionar(Imagem *img, int terminal, FILE *lerEntradas){
     char anguloRotacao[100];
     int nGiros, dimensaoTemporaria;

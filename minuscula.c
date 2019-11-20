@@ -1,7 +1,15 @@
 #include "funcoes.h"
 #include "string.h"
 
-//Essa função converte as letras maiúsculas de uma string em letras minúsculas.
+/**
+ * Essa função converte as letras maiúsculas de uma string em letras minúsculas.
+ * 
+ * @param string - Entrada da palavra que será convertida totalmente para letras minúsculas
+ * @return int 
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int minuscula(char *string){
     int tamanhoString;
 

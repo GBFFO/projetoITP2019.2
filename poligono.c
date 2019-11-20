@@ -1,7 +1,19 @@
 #include "funcoes.h"
 #include "stdio.h"
 
-//Essa função desenha um polígono com 'n' lados dadas as coordenadas dos vértices do polígono.
+/**
+ * Essa função desenha um polígono com 'n' lados dadas as coordenadas dos vértices do polígono.
+ * 
+ * @param img - Referencia para a imagem na qual será desenhada o polígono de 'n' lados definido
+ * @param cor - Cor RGB que será pintada as linhas do polígono
+ * @param espessuraLinha - Espessura/densidade da linha do polígono que será desenhada na imagem
+ * @param terminal - Identifica se as entradas dos dados são feitas pelo terminal ou pelo arquivo de texto
+ * @param lerEntradas - Referencia para o arquivo de texto
+ * @return int
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int poligono(Imagem img, Pixel cor, int espessuraLinha, int terminal, FILE *lerEntradas){
     int nPontos;
 

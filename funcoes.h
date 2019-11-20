@@ -30,7 +30,7 @@ typedef struct{
 
 //Assinaturas das funcoes
 void escolheCor(Pixel *cor, int terminal, FILE *lerEntradas);
-int limpar(Imagem img, Pixel cor);
+void limpar(Imagem img, Pixel cor);
 int linha(Imagem img, Ponto p1, Ponto p2, Pixel cor, int espessuraLinha);
 int poligono(Imagem img, Pixel cor, int espessuraLinha,int terminal, FILE *lerEntradas);
 int salvar(Imagem img, char *nomeArquivo);

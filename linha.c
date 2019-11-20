@@ -1,8 +1,19 @@
 #include "funcoes.h"
 #include "stdio.h"
 
-
-
+/**
+ * Esta função traça uma linha entre os pontos p1(x1,y1) e p2(x2,y2). 
+ * 
+ * @param img - Referencia para a imagem na qual a linha será desenhada
+ * @param p1 - Ponto do início da linha
+ * @param p2 - Ponto final da linha
+ * @param cor - Cor RGB que a linha será colorida
+ * @param espessuraLinha - Espessura/densidade da linha
+ * @return int
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva 
+ */
 
 //Traça uma linha entre os pontos p1(x1,y1) e p2(x2,y2). 
 int linha(Imagem img, Ponto p1, Ponto p2, Pixel cor, int espessuraLinha){

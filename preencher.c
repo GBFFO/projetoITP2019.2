@@ -1,6 +1,20 @@
 #include "funcoes.h"
 
-//Essa função preenche com cor uma determinada região da imagem a partir das coordenadas (xi,yi) informadas. 
+/**
+ * Essa função preenche com cor uma determinada região da imagem a partir das coordenadas (xi,yi) informadas. 
+ * 
+ * @param img - Referencia da imagem, cuja as coordenadas iniciais para o preenchimento serão apontadas
+ * @param x - Coordenada horizontal do ponto inicial
+ * @param y - Coordenada vertical do ponto inicial
+ * @param cor - Nova cor RGB para o preenchimento 
+ * @param corInicial - Cor RGB que já estava no ponto selecionado
+ * Obs: esse parametro foi passado para a verificação se naquele ponto já estava pintado com  a cor
+ * que o usuário mandou pintar
+ * @return int
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int preencher(Imagem img, int x, int y, Pixel cor, Pixel corInicial){
     int pixelsIguais = (cor.R == corInicial.R && cor.G == corInicial.G && cor.B == corInicial.B);
     

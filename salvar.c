@@ -2,7 +2,13 @@
 #include "stdio.h"
 #include "string.h"
 
-//Essa função salva uma imagem com formato PPM.
+/**
+ * Essa função salva uma imagem com formato PPM, independente se o usuário já acabou sua edição.
+ * 
+ * @param img - Referencia para a imagem que será salva.
+ * @param nomeArquivo - Nome que a função irá atribuir para a imagem. Depois disso, irá salvá-la.
+ * @return int 
+ */
 int salvar(Imagem img, char *nomeArquivo){
     FILE *imagem = NULL;
 

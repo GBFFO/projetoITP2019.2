@@ -19,8 +19,19 @@
                | 0 0 0 0 0 |              | 0 0 0 0 0 |               | 0 0 1 0 0 |
 
 */
-
-//Essa função pinta um pixel cujas coordenadas foram informadas pelo usuário.
+/**
+ * Essa função pinta um pixel cujas coordenadas foram informadas pelo usuário.
+ * 
+ * @param img - Referencia da imagem na qual será pintado o pixel selecionado
+ * @param cor - Cor RGB cujo pixel será colorido
+ * @param x - Coordenada x(horizontal) do ponto selecionado 
+ * @param y - Coordenada y(vertical) do ponto selecionado
+ * @param espessura - Espessura do pixel(mostrado no exemplo acima)
+ * @return int 
+ * @version 18-11-2019
+ * @author Danilo Micaías Lima da Silva
+ * @author Gabriel Bessa de Freitas Fuezi Oliva
+ */
 int pintarPixelmod(Imagem img, Pixel cor, int x, int y, int espessura){
 
     //Pixel fora da imagem

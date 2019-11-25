@@ -1,0 +1,39 @@
+imagem 400 250
+cor verde
+limpar
+espessura 5
+cor branco
+plotar 2 -0.001 -0.15 10
+plotar 2 -0.001 -0.15 5
+espessura 1
+cor azulescuro
+circulo 200 125 70
+preencher 200 80
+preencher 200 170
+cor verde
+preencher 1 130
+preencher 400 185
+cor amarelo
+poligono 4 200 30 370 125 200 220 30 125
+preencher 200 31
+circulo 200 125 70
+cor branca
+espessura 5
+pintarpixel 220 110
+espessura 3
+pintarpixel 220 150
+pintarpixel 200 150
+pintarpixel 180 170
+pintarpixel 150 125
+pintarpixel 240 140
+espessura 1
+pintarpixel 205 160
+pintarpixel 235 165
+pintarpixel 211 180
+pintarpixel 145 160
+pintarpixel 155 190
+salvar brasil
+girar direita
+salvar brasilgirado
+fim
+

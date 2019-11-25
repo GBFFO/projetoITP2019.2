@@ -1,0 +1,63 @@
+imagem 750 500
+cor 143 164 100
+limpar
+espessura 5
+cor branca
+paralelepipedo 400 200 200 300 400 20
+cor cinza
+preencher 400 150
+cor 115 0 5
+preencher 200 250
+preencher 600 250
+espessura 1
+cor preta
+circulo 500 300 10
+preencher 500 300
+circulo 550 280 20
+preencher 550 280
+circulo 510 230 15
+preencher 510 230
+circulo 600 320 10
+preencher 600 320
+circulo 650 300 20
+preencher 650 300
+circulo 610 250 15
+preencher 610 250
+circulo 450 370 10
+preencher 450 370
+circulo 500 350 20
+preencher 500 350
+circulo 460 300 15
+preencher 460 300
+espessura 1
+cor preta
+paralelepipedo 150 150 30 0 100 20
+preencher 149 151
+paralelepipedo 150 200 30 0 100 20
+preencher 149 201
+paralelepipedo 150 250 30 0 100 20
+preencher 149 251
+paralelepipedo 285 200 30 0 100 20
+preencher 284 201
+paralelepipedo 285 250 30 0 100 20
+preencher 284 251
+paralelepipedo 285 300 30 0 100 20
+preencher 284 301
+paralelepipedo 350 330 10 40 60 20
+cor branca
+preencher 350 329
+preencher 349 335
+preencher 351 335
+cor preta
+linha 1 360 285 360
+linha 1 400 396 400
+cor bege
+preencher 1 380
+cor preta
+linha 390 341 390 394
+linha 320 330 320 368
+preencher 389 360
+salvar IMD
+fim
+
+

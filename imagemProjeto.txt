@@ -1,13 +1,26 @@
 imagem 1000 500
-cor azul
+cor 60 120 216
 limpar
 cor preta
 circulo 350 150 50
-cor amarela
+cor 255 229 153
 preencher 350 150
-espessura 3
+espessura 1
 cor preta
-linha 1 350 600 230
-linha 600 230 1000 300
+poligono 8 150 350 550 200 950 300 650 290 625 320 560 295 450 345 450 290
+linha 1 406 150 350
+linha 950 300 1000 313
+cor 183 183 183
+preencher 500 250
+cor preta
+linha 560 295 560 500
+cor 19 79 92
+preencher 500 400
+preencher 600 400
+linha 560 295 560 500
+cor preta
+pintarpixel 560 295
 salvar imagemProjeto
 fim
+
+

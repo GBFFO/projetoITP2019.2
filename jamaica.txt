@@ -1,0 +1,15 @@
+image 800 400
+cor amarelo
+limpar
+cor preto
+poligono 3 1 50 300 200 1 350
+poligono 3 800 50 500 200 800 350
+preencher 100 200
+preencher 700 200
+cor verde
+poligono 3 100 0 400 150 700 0
+preencher 400 100
+poligono 3 100 400 400 250 700 400
+preencher 400 300
+salvar Jamaica
+fim

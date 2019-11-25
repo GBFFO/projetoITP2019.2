@@ -1,0 +1,26 @@
+imagem 101 101
+cor preta
+plotar 2 0.01 0 0
+salvar Grafico0.01x2
+cor verde
+plotar 2 0.02 0 0
+salvar Grafico0.02x2
+cor azul
+plotar 2 0.02 0 -30
+salvar Grafico0.02x2-30
+cor roxo
+plotar 2 0.02 0 30
+salvar Grafico0.02x2+30
+cor azulclaro
+plotar 3 0.001 0 0 0
+salvar Grafico0.001x3
+cor magenta
+plotar 3 -0.001 0 0 20
+salvar Grafico-0.001x3+20
+cor vermelha
+plotar 1 1 50
+salvar Graficox+50
+pintarpixel 51 51
+salvar FuncoesPolinomiais
+fim
+
